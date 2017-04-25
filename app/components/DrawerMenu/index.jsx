@@ -7,12 +7,12 @@ export default class DrawerMenu extends React.Component {
       <ul id="slide-out" className="side-nav">
         <li>
           <div className="userView">
-            <a href="/"><img className="circle" src="http://materializecss.com/images/yuna.jpg"/></a>
+            <a href="/"><img className="circle" src="http://www.gravatar.com/avatar/e2fd5e05b4ca284f9aff71d0bdefe1c2>"/></a>
             <a href="/">
-              <span className="white-text name">John Doe</span>
+              <span className="white-text name">Rubén Sillero</span>
             </a>
-            <a href="/">
-              <span className="white-text email">jdandturk_gmail.com</span>
+            <a href="mailto:rubensillero90@gmail.com">
+              <span className="white-text email">rubensillero90@gmail.com</span>
             </a>
           </div>
         </li>
