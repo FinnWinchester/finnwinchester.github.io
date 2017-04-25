@@ -9,7 +9,7 @@ class HomeMainComponent extends React.Component {
 
   render() {
     return (
-      <div></div>
+      <div className='home-main'></div>
     );
   }
 }

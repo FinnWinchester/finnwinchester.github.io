@@ -21,9 +21,6 @@ let HeaderBarComponent = ({count, onPlusClick, onMinusClick}) => (
               <i className="material-icons">menu</i>
             </a>
           </li>
-          <li>
-            <Link to="/home" activeClassName="active-link">Home</Link>
-          </li>
         </ul>
       </div>
       <DrawerMenu/>

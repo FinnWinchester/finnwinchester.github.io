@@ -1,5 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import {HomeMain} from './scenes';
 
 class HomeComponent extends React.Component {
   constructor(props) {
@@ -9,8 +10,8 @@ class HomeComponent extends React.Component {
 
   render() {
     return (
-      <div className='home-section content'>
-        {this.props.children}
+      <div>
+        <HomeMain/>
       </div>
     );
   }
