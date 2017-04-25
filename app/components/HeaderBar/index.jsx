@@ -3,18 +3,10 @@ import {Link} from 'react-router';
 import {connect} from 'react-redux';
 import {Title, Input, DrawerMenu} from 'components';
 
-const style = {
-  width: '55px'
-};
-
 let HeaderBarComponent = ({count, onPlusClick, onMinusClick}) => (
   <div>
     <nav className="header-bar">
       <div className="nav-wrapper">
-        <Link to="/" className="brand-logo center">
-          <img src="/img/react.png" style={style}/>
-          <img src="/img/redux.png" style={style}/>
-        </Link>
         <ul id="nav-mobile" className="left hide-on-med-and-down">
           <li>
             <a href="javascript:;" data-activates="slide-out" className="toggle-drawer">

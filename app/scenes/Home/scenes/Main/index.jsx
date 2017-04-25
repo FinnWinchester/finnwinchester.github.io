@@ -8,10 +8,17 @@ class HomeMainComponent extends React.Component {
   }
 
   render() {
+    let style = {
+      width: '100px'
+    };
     return (
       <div className='home-main'>
         <div className='h1 center-align'>Welcome!</div>
-        <div className='h4 center-align'>This site is under construction.</div>
+        <div className='center-align'>
+          <img src='/img/react.png' style={style}/>
+        </div>
+        <div className='h3 center-align'>This site is under construction.</div>
+        <div className='h5 center-align'>Build with ReactJS.</div>
       </div>
     );
   }
