@@ -9,7 +9,9 @@ class HomeMainComponent extends React.Component {
 
   render() {
     return (
-      <div className='home-main'></div>
+      <div className='home-main'>
+        <div className='h1 center-align'>Welcome!</div>
+      </div>
     );
   }
 }
