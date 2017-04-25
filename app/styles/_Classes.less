@@ -1,0 +1,89 @@
+.non-fluid-container {
+  // Extra small devices (portrait phones, less than 576px)
+  @media (max-width: 575px) {
+    width: 100%;
+  }
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767px) {
+    width: 520px;
+    margin: 0 auto;
+  }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 750px;
+    margin: 0 auto;
+  }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199px) {
+    width: 900px;
+    margin: 0 auto;
+  }
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+.row {
+  margin-bottom: 0 !important;
+}
+
+.pd10 {
+  padding: 10px;
+}
+
+.xalign-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.inner-component {
+  position: absolute;
+
+  &.center-align {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  &.right-align {
+    right: 0;
+  }
+
+  &.top-align {
+    top: 0;
+  }
+
+  &.bottom-align {
+    bottom: 0;
+  }
+}
+
+.font-size-generator (@index) when (@index > = 8) {
+  .fs@{index} {
+    font-size: ~'@{index}px';
+  }
+  .font-size-generator(@index - 1);
+}
+.font-size-generator (50);
+
+.height-px-generator (@index) when (@index > = 8) {
+  .height-px-@{index} {
+    height: ~'@{index}px';
+  }
+  .height-px-generator(@index - 1);
+}
+.height-px-generator (400);
+
+.width-pc-generator (@index) when (@index > = 8) {
+  .width-pc-@{index} {
+    width: ~'@{index}%';
+  }
+  .width-pc-generator(@index - 1);
+}
+.width-pc-generator (400);
