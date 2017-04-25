@@ -8,7 +8,7 @@
   "scripts": {
     "start": "brunch watch --server",
     "build": "brunch build --production",
-    "postbuild": "cp -fr public/* ."
+    "postbuild": "cp -fr public/* docs/"
   },
   "dependencies": {
     "react": "^15.4.2",
