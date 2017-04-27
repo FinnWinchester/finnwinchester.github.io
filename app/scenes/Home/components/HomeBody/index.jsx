@@ -1,19 +1,19 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {HomeHeader} from './components';
-import {HomeBody} from './components';
 
-class HomeComponent extends React.Component {
+class HomeHeaderComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
 
   render() {
+    let style = {
+      width: '100px'
+    };
     return (
-      <div>
-        <HomeHeader/>
-        <HomeBody/>
+      <div className='home-body'>
+        <div className='h2'>Body</div>
       </div>
     );
   }
@@ -27,6 +27,6 @@ const mapDispatchToProps = dispatch => {
   return {};
 }
 
-var Home = connect(mapStateToProps, mapDispatchToProps)(HomeComponent);
+var HomeHeader = connect(mapStateToProps, mapDispatchToProps)(HomeHeaderComponent);
 
-export default Home;
+export default HomeHeader;

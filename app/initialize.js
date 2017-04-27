@@ -6,7 +6,6 @@ import myApp from './reducers';
 
 import MainLayout from 'scenes/MainLayout';
 import Home from 'scenes/Home';
-import {HomeMain} from 'scenes/Home/scenes';
 import NotFound from 'scenes/NotFound';
 import {Router, Route, browserHistory, IndexRoute} from 'react-router';
 
@@ -35,7 +34,6 @@ const load = () => {
     <Router history={browserHistory}>
       <Route path="/" component={MainLayout}>
         <IndexRoute component={Home}></IndexRoute>
-        <Route path="home" activeClassName="active-link" component={HomeMain}></Route>
       </Route>
       <Route path="*" component={NotFound}></Route>
     </Router>

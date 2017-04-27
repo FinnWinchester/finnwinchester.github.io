@@ -7,7 +7,7 @@ class MainLayout extends React.Component {
       <div>
         <HeaderBar/>
         <SubheaderBar/>
-        <div className='main-layout section'>
+        <div className='main-layout'>
           {this.props.children}
         </div>
         <Footer/>

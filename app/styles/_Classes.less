@@ -25,45 +25,11 @@
   }
 }
 
-.row {
-  margin-bottom: 0 !important;
+.halign {
+  margin: 0 auto;
 }
 
-.pd10 {
-  padding: 10px;
-}
-
-.xalign-wrapper {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.inner-component {
-  position: absolute;
-
-  &.center-align {
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-
-  &.right-align {
-    right: 0;
-  }
-
-  &.top-align {
-    top: 0;
-  }
-
-  &.bottom-align {
-    bottom: 0;
-  }
-}
-
+// ============================ Font size generator ============================
 .font-size-generator (@index) when (@index > = 8) {
   .fs@{index} {
     font-size: ~'@{index}px';
@@ -71,7 +37,9 @@
   .font-size-generator(@index - 1);
 }
 .font-size-generator (50);
+// =============================================================================
 
+// ========================== Height in PX generator ===========================
 .height-px-generator (@index) when (@index > = 8) {
   .height-px-@{index} {
     height: ~'@{index}px';
@@ -79,11 +47,52 @@
   .height-px-generator(@index - 1);
 }
 .height-px-generator (400);
+// =============================================================================
 
+// =========================== Width in % generator ============================
 .width-pc-generator (@index) when (@index > = 8) {
   .width-pc-@{index} {
     width: ~'@{index}%';
   }
   .width-pc-generator(@index - 1);
 }
-.width-pc-generator (400);
+.width-pc-generator (100);
+// =============================================================================
+
+// ========================= Spacings in px generator ==========================
+.spacings-px-generator (@index) when (@index > = 0) {
+  .margin-px-@{index} {
+    margin: ~'@{index}px';
+  }
+  .margin-top-px-@{index} {
+    margin-top: ~'@{index}px';
+  }
+  .margin-bottom-px-@{index} {
+    margin-bottom: ~'@{index}px';
+  }
+  .margin-left-px-@{index} {
+    margin-left: ~'@{index}px';
+  }
+  .margin-right-px-@{index} {
+    margin-right: ~'@{index}px';
+  }
+
+  .padding-px-@{index} {
+    padding: ~'@{index}px';
+  }
+  .padding-top-px-@{index} {
+    padding-top: ~'@{index}px';
+  }
+  .padding-bottom-px-@{index} {
+    padding-bottom: ~'@{index}px';
+  }
+  .padding-left-px-@{index} {
+    padding-left: ~'@{index}px';
+  }
+  .padding-right-px-@{index} {
+    padding-right: ~'@{index}px';
+  }
+  .spacings-px-generator(@index - 1);
+}
+.spacings-px-generator (30);
+// =============================================================================
