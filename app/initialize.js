@@ -29,26 +29,17 @@ if (module.hot) {
   });
 }
 
-const onUrlChange = () => {
-  $(document).ready(function() {
-    try {
-      $('.toggle-drawer').sideNav();
-    } catch (e) {}
-  });
-};
-
 const load = () => {
   ReactDOM.render(
     <Provider store={store}>
     <Router history={browserHistory}>
-      <Route path="/" onChange={onUrlChange} component={MainLayout}>
+      <Route path="/" component={MainLayout}>
         <IndexRoute component={Home}></IndexRoute>
         <Route path="home" activeClassName="active-link" component={HomeMain}></Route>
       </Route>
       <Route path="*" component={NotFound}></Route>
     </Router>
   </Provider>, document.querySelector('#react_root'));
-  onUrlChange();
 };
 
 if (document.readyState !== 'complete') {

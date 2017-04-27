@@ -1,9 +1,7 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
 import {Link} from 'react-router';
-import {connect} from 'react-redux';
-import {Title, Input} from 'components';
 
-class SubheaderBarComponent extends React.Component {
+class SubheaderBar extends React.Component {
   render() {
     if (this.props.subheader) {
       return (
@@ -24,14 +22,4 @@ class SubheaderBarComponent extends React.Component {
   }
 }
 
-SubheaderBarComponent.propTypes = {};
-
-const mapStateToProps = state => {
-  return {subheader: state.subheader};
-};
-const mapDispatchToProps = dispatch => {
-  return {};
-}
-
-var SubheaderBar = connect(mapStateToProps, mapDispatchToProps)(SubheaderBarComponent);
 export default SubheaderBar;
