@@ -19,7 +19,7 @@ class HomeHeaderComponent extends React.Component {
             <img src='/img/react.png' style={style}/>
           </div>
           <div className='h3 center-align'>This site is under construction.</div>
-          <div className='h5 center-align'>Build with ReactJS.</div>
+          <div className='h5 center-align'>Built with ReactJS.</div>
         </div>
       </div>
     );
