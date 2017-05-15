@@ -1,36 +1,27 @@
 import React from 'react';
 
 let Footer = () => (
-  <footer className="page-footer">
-    <div className="container">
-      <div className="row">
-        <div className="col l6 s12">
-          <h5 className="white-text">Footer Content</h5>
-          <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+  <footer className='page-footer'>
+    <div className='container'>
+      <div className='row'>
+        <div className='col l4 s12'>
+          <h5 className='white-text'>Contact</h5>
+          <p className='grey-text text-lighten-4'>If you want to contact me you can do it throught my e-mail address <a href='mailto:rubensillero90@gmail.com' target='_blank' className='black-link'>rubensillero90@gmail.com</a>.</p>
         </div>
-        <div className="col l4 offset-l2 s12">
-          <h5 className="white-text">Links</h5>
-          <ul>
-            <li>
-              <a className="grey-text text-lighten-3" href="#!">Link 1</a>
-            </li>
-            <li>
-              <a className="grey-text text-lighten-3" href="#!">Link 2</a>
-            </li>
-            <li>
-              <a className="grey-text text-lighten-3" href="#!">Link 3</a>
-            </li>
-            <li>
-              <a className="grey-text text-lighten-3" href="#!">Link 4</a>
-            </li>
-          </ul>
+        <div className='col l4 s12'>
+          <h5 className='white-text'>What am I up to</h5>
+          <p className='grey-text text-lighten-4'>Beers, work, traing, learn, teach. Enjoy life.</p>
+        </div>
+        <div className='col l4 s12'>
+          <h5 className='white-text'>Who is this Finn Winchester?</h5>
+          <p className='grey-text text-lighten-4'>It is my nickname on the internet.</p>
         </div>
       </div>
     </div>
-    <div className="footer-copyright">
-      <div className="container">
+    <div className='footer-copyright'>
+      <div className='container'>
         © 2017 Copyright Text
-        <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+        <div className='grey-text text-lighten-4 right'>Designed and coded by Finn Winchester</div>
       </div>
     </div>
   </footer>
