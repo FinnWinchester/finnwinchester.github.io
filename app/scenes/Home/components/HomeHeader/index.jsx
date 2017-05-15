@@ -21,6 +21,7 @@ class HomeHeaderComponent extends React.Component {
           <div className='h3 center-align'>This site is under construction.</div>
           <div className='h5 center-align'>Built with ReactJS.</div>
         </div>
+        <div className='finn-winchester'>RS</div>
       </div>
     );
   }
