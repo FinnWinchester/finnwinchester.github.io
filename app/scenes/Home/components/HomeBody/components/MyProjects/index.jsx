@@ -9,8 +9,12 @@ class MyProjects extends React.Component {
     return (
       <div>
         <div className='non-fluid-container'>
-          <div className='h4 title'>My projects</div>
           <div className='content'>
+            <div className='row'>
+              <div className='col s12'>
+                <div className='h4 title'>My projects</div>
+              </div>
+            </div>
             <div className='row'>
               <div className='col s12'>
                 <div className='card darken-1 padding-px-10'>
