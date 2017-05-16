@@ -37,6 +37,22 @@
   color: @flat-ui-black-hole;
 }
 
+.zebra {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &:nth-child(2n) {
+    background-color: white;
+  }
+
+  &:nth-child(2n+1) {
+    background-color: #FAFAFA;
+  }
+}
+
+.row {
+  margin: 0 !important;
+}
 // ============================ Font size generator ============================
 .font-size-generator (@index) when (@index > = 8) {
   .fs@{index} {
@@ -44,43 +60,44 @@
   }
   .font-size-generator(@index - 1);
 }
-.font-size-generator (50);
-// =============================================================================
-
+.font-size-generator (50); // =============================================================================
 // ========================== Height in PX generator ===========================
+
 .height-px-generator (@index) when (@index > = 8) {
   .height-px-@{index} {
     height: ~'@{index}px';
   }
   .height-px-generator(@index - 1);
 }
-.height-px-generator (400);
-// =============================================================================
-
+.height-px-generator (400); // =============================================================================
 // =========================== Width in % generator ============================
+
 .width-pc-generator (@index) when (@index > = 8) {
   .width-pc-@{index} {
     width: ~'@{index}%';
   }
   .width-pc-generator(@index - 1);
 }
-.width-pc-generator (100);
-// =============================================================================
-
+.width-pc-generator (100); // =============================================================================
 // ========================= Spacings in px generator ==========================
+
 .spacings-px-generator (@index) when (@index > = 0) {
   .margin-px-@{index} {
     margin: ~'@{index}px';
   }
+
   .margin-top-px-@{index} {
     margin-top: ~'@{index}px';
   }
+
   .margin-bottom-px-@{index} {
     margin-bottom: ~'@{index}px';
   }
+
   .margin-left-px-@{index} {
     margin-left: ~'@{index}px';
   }
+
   .margin-right-px-@{index} {
     margin-right: ~'@{index}px';
   }
@@ -88,19 +105,22 @@
   .padding-px-@{index} {
     padding: ~'@{index}px';
   }
+
   .padding-top-px-@{index} {
     padding-top: ~'@{index}px';
   }
+
   .padding-bottom-px-@{index} {
     padding-bottom: ~'@{index}px';
   }
+
   .padding-left-px-@{index} {
     padding-left: ~'@{index}px';
   }
+
   .padding-right-px-@{index} {
     padding-right: ~'@{index}px';
   }
   .spacings-px-generator(@index - 1);
 }
-.spacings-px-generator (30);
-// =============================================================================
+.spacings-px-generator (30); // =============================================================================

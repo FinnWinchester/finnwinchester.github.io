@@ -10,7 +10,7 @@ let Footer = () => (
         </div>
         <div className='col l4 s12'>
           <h5 className='white-text'>What am I up to</h5>
-          <p className='grey-text text-lighten-4'>Beers, work, traing, learn, teach. Enjoy life.</p>
+          <p className='grey-text text-lighten-4'>Beers, work, training, learn, teach. Enjoy life.</p>
         </div>
         <div className='col l4 s12'>
           <h5 className='white-text'>Who is this Finn Winchester?</h5>
