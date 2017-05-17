@@ -5,7 +5,7 @@ class AngularJSSkill extends React.Component {
     return (
       <div>
         <div className='row'>
-          <div className='col s12 l4 m8 offset-m2'>
+          <div className='col s8 offset-s2 l4 m8 offset-m2'>
             <img src='img/angular_js.png' className='angularjs-image'/>
           </div>
           <div className='col s12 m8'>

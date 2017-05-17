@@ -5,7 +5,7 @@ class ReactReduxSkill extends React.Component {
     return (
       <div>
         <div className='row'>
-          <div className='col s12 l4 m8 offset-m2'>
+          <div className='col s8 offset-s2 l4 m8 offset-m2'>
             <img src='img/react.png' className='react-redux-image'/>
             <img src='img/redux.png' className='react-redux-image'/>
           </div>
