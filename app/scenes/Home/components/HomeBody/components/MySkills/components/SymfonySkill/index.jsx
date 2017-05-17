@@ -5,9 +5,9 @@ class SymfonySkill extends React.Component {
     return (
       <div>
         <div className='row'>
-          <div className='col s8 offset-s2 l4 m8 offset-m2'>
+          <div className='col l4 m4 s8 offset-s2'>
             <img src='img/symfony_logo_vertical.png' className='symfony-image'/></div>
-          <div className='col s12 l8'>
+          <div className='col l8 m8 s12'>
             <div className='h5 title'>Symfony</div>
             <p>Working for 4 years using this PHP based framework. The version used was the 2.8.*.</p>
             <p>All kinds of projects were developed with it: from corporative web pages for different enterprises to various e-commerce, all of them with multi-language and most of them with a content management system.</p>

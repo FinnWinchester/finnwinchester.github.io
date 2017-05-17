@@ -5,11 +5,11 @@ class ReactReduxSkill extends React.Component {
     return (
       <div>
         <div className='row'>
-          <div className='col s8 offset-s2 l4 m8 offset-m2'>
+          <div className='col l4 m4 s8 offset-s2'>
             <img src='img/react.png' className='react-redux-image'/>
             <img src='img/redux.png' className='react-redux-image'/>
           </div>
-          <div className='col s12 m8'>
+          <div className='col l8 m8 s12'>
             <div className='h5 title'>ReactJS & Redux</div>
             <p>Recently I discovered ReactJS library developed by Facebook and it took my heart from the beginnig due to its flexibility and how easy to learn was it.</p>
             <p>ReactjS by itself it's pretty good to develop from small to large sites, including single pages for corporative websites and large applications.</p>
