@@ -13,8 +13,8 @@ class WhatIDont extends React.Component {
         <p>Traffic jams.</p>
         <p>Planning my week and have it messed up the next hour.</p>
         <p>People who make too much noise. Talking, breathing, eating.</p>
-        <p>People who does not accepte constructive criticism.</p>
-        <p>Or those who does not accepte compliments.</p>
+        <p>People who don't accepte constructive criticism.</p>
+        <p>Or those who don't accepte compliments.</p>
       </div>
     );
   }
