@@ -6,8 +6,8 @@ class ReactReduxSkill extends React.Component {
       <div>
         <div className='row'>
           <div className='col l4 m4 s8 offset-s2'>
-            <img src='img/react.png' className='react-redux-image'/>
-            <img src='img/redux.png' className='react-redux-image'/>
+            <img src='img/react.png' className='half-width-image'/>
+            <img src='img/redux.png' className='half-width-image'/>
           </div>
           <div className='col l8 m8 s12'>
             <div className='h5 title'>ReactJS & Redux</div>

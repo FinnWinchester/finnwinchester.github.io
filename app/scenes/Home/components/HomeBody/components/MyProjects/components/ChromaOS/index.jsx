@@ -4,7 +4,7 @@ class ChromaOS extends React.Component {
   render() {
     return (
       <div>
-        <h5>ChromaOS</h5>
+        <h5>ChromaOS (AngularJS version)</h5>
         <p>This project began more like a concept demo and evolved to a full equipped environment.</p>
         <p>Providing tools like windowed sections (like desktop APPs) and a MacOS-like header bar you can develop, as said, desktop-like web-apps. You can even customize your own terminal! Awesome! SDK's guide found inside every repo.</p>
         <p>ChromaOS: desktop-like web-apps, windowed sectoins. Link: <a href='https://github.com/FinnWinchester/ChromaOS' target='_blank'>ChromaOS</a>.</p>

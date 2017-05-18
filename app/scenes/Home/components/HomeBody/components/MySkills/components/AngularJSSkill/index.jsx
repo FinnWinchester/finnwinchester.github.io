@@ -6,7 +6,7 @@ class AngularJSSkill extends React.Component {
       <div>
         <div className='row'>
           <div className='col l4 m4 s8 offset-s2'>
-            <img src='img/angular_js.png' className='angularjs-image'/>
+            <img src='img/angular_js.png' className='full-width-image'/>
           </div>
           <div className='col l8 m8 s12'>
             <div className='h5 title'>AngularJS</div>
