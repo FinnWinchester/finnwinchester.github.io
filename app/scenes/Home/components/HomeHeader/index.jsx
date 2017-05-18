@@ -1,5 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import Atv from 'components/Atv/components/Atv';
 
 class HomeHeaderComponent extends React.Component {
   constructor(props) {
@@ -9,14 +10,16 @@ class HomeHeaderComponent extends React.Component {
 
   render() {
     let style = {
-      width: '100px'
+      width: 250,
+      height: 250,
+      margin: '0 auto'
     };
     return (
       <div className='home-header valign-wrapper'>
         <div className='valign halign'>
           <div className='h1 center-align'>Welcome!</div>
           <div className='center-align'>
-            <img src='/img/react.png' style={style}/>
+            <Atv layers={['/img/react.png']} staticFallback='http://kloc.pm/images/kloc-icon-flattened.jpg' style={style}/>
           </div>
           <div className='h3 center-align'>This site is under construction.</div>
           <div className='h5 center-align'>Built with ReactJS.</div>
