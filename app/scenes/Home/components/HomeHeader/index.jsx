@@ -17,11 +17,9 @@ class HomeHeaderComponent extends React.Component {
     return (
       <div className='home-header valign-wrapper'>
         <div className='valign halign'>
-          <div className='h1 center-align'>Welcome!</div>
           <div className='center-align'>
             <Atv layers={['/img/react.png']} staticFallback='http://kloc.pm/images/kloc-icon-flattened.jpg' style={style}/>
           </div>
-          <div className='h3 center-align'>This site is under construction.</div>
           <div className='h5 center-align'>Built with ReactJS.</div>
         </div>
         <div className='finn-winchester'>RS</div>
