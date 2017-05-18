@@ -17,7 +17,7 @@ class MySkills extends React.Component {
             <div className='row'>
               <div className='col s12'>
                 <div className='card darken-1 padding-px-10'>
-                  <SymfonySkill/>
+                  <ReactReduxSkill/>
                 </div>
               </div>
               <div className='col s12'>
@@ -25,11 +25,9 @@ class MySkills extends React.Component {
                   <AngularJSSkill/>
                 </div>
               </div>
-            </div>
-            <div className='row'>
               <div className='col s12'>
                 <div className='card darken-1 padding-px-10'>
-                  <ReactReduxSkill/>
+                  <SymfonySkill/>
                 </div>
               </div>
             </div>
