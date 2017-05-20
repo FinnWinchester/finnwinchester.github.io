@@ -5,7 +5,7 @@ class OtherSkills extends React.Component {
     return (
       <div>
         <div className='row'>
-          <div className='col l12'>
+          <div className='col s12'>
             <div className='h5 title'>Also...</div>
           </div>
           <div className='col l2 m3 s4'>
@@ -19,6 +19,12 @@ class OtherSkills extends React.Component {
           </div>
           <div className='col l2 m3 s4'>
             <img src='img/mysql.png' className='full-width-image'/>
+          </div>
+          <div className='col l2 m3 s4'>
+            <img src='img/babel.png' className='full-width-image'/>
+          </div>
+          <div className='col l2 m3 s4'>
+            <img src='img/jest.png' className='full-width-image'/>
           </div>
         </div>
       </div>
