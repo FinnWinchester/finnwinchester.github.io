@@ -4,6 +4,8 @@ import SymfonySkill from './components/SymfonySkill';
 import AngularJSSkill from './components/AngularJSSkill';
 import ReactReduxSkill from './components/ReactReduxSkill';
 import OtherSkills from './components/OtherSkills';
+import BabelSkill from './components/BabelSkill';
+import JestSkill from './components/JestSkill';
 
 class MySkills extends React.Component {
   render() {
@@ -25,6 +27,16 @@ class MySkills extends React.Component {
               <div className='col s12'>
                 <div className='card darken-1 padding-px-10'>
                   <ReactReduxSkill/>
+                </div>
+              </div>
+              <div className='col s12 m12 l6'>
+                <div className='card darken-1 padding-px-10'>
+                  <BabelSkill/>
+                </div>
+              </div>
+              <div className='col s12 m12 l6'>
+                <div className='card darken-1 padding-px-10'>
+                  <JestSkill/>
                 </div>
               </div>
               <div className='col s12'>

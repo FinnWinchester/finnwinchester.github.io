@@ -20,12 +20,6 @@ class OtherSkills extends React.Component {
           <div className='col l2 m3 s4'>
             <img src='img/mysql.png' className='full-width-image'/>
           </div>
-          <div className='col l2 m3 s4'>
-            <img src='img/babel.png' className='full-width-image'/>
-          </div>
-          <div className='col l2 m3 s4'>
-            <img src='img/jest.png' className='full-width-image'/>
-          </div>
         </div>
       </div>
     );
