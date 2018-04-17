@@ -49,7 +49,7 @@ module.exports = (env = {}) => {
         },
         output: {
             filename: '[name].js',
-            path: path.resolve(__dirname, '/')
+            path: path.resolve(__dirname, 'docs')
         },
         resolve: {
             extensions: [
