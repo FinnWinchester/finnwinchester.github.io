@@ -1,8 +1,7 @@
 import React from 'react';
-import {connect} from 'react-redux';
 import Atv from 'components/Atv/components/Atv';
 
-class HomeHeaderComponent extends React.Component {
+export default class HomeHeader extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -27,15 +26,3 @@ class HomeHeaderComponent extends React.Component {
     );
   }
 }
-
-const mapStateToProps = state => {
-  return {};
-};
-
-const mapDispatchToProps = dispatch => {
-  return {};
-}
-
-var HomeHeader = connect(mapStateToProps, mapDispatchToProps)(HomeHeaderComponent);
-
-export default HomeHeader;
