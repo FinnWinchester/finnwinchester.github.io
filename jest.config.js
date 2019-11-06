@@ -1,12 +1,4 @@
 module.exports = {
-  coverageThreshold: {
-    'src/utils': {
-      branches: 100,
-      functions: 100,
-      lines: 100,
-      statements: 100
-    }
-  },
   modulePathIgnorePatterns: ['public', 'node_modules'],
   modulePaths: ['<rootDir>', '<rootDir>/src'],
   prettierPath: '<rootDir>/node_modules/prettier',
