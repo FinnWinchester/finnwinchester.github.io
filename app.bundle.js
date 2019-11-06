@@ -3624,7 +3624,7 @@
             a.a.createElement(
               l.b,
               null,
-              'Welcome to my portfolio, this is Rubén. I was born in the mid 90s this frontend engineer took my first steps as a web developer back in 2010 and became a former developer 2 years later.'
+              'Welcome to my portfolio, this is Rubén. I have always been interested in technology, specially in development and that is why I started studying web development back in 2010 and became a former developer 2 years later, starting what it would be my dream career.'
             ),
             a.a.createElement(
               l.b,
