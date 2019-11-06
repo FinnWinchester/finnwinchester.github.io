@@ -1,0 +1,1758 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test render Should render App 1`] = `
+.c3 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 5px 15px #9c9c9c;
+}
+
+.c0 {
+  width: 100%;
+  height: 500px;
+  background-image: url(polygon_blue.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  box-shadow: 0 5px 15px #9c9c9c;
+}
+
+.c1 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.c1 .c2 {
+  margin: 30px 0;
+}
+
+.c15 {
+  background: linear-gradient(141deg,#0fb8ad 0%,#1fc8db 51%,#2cb5e8 75%);
+  width: 100%;
+  position: relative;
+  box-shadow: 0 -5px 15px #9c9c9c;
+}
+
+.c16 {
+  padding: 15px 30px;
+}
+
+.c17 {
+  color: white;
+  font-size: 25px;
+  padding: 5px 0;
+}
+
+.c18 {
+  color: white;
+  font-size: 16px;
+}
+
+.c19 {
+  background-color: rgba(51,51,51,0.08);
+  padding: 15px 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: white;
+}
+
+.c9 {
+  width: 100%;
+}
+
+.c9 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.c10 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.c7 {
+  font-size: 18px;
+  color: #3e3d40;
+}
+
+.c5 {
+  font-size: 25px;
+  color: #3e3d40;
+}
+
+.c5 + .c6 {
+  margin-top: 10px;
+}
+
+.c8 {
+  margin-bottom: 15px;
+}
+
+.c12 {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c12 img {
+  width: calc(100% / 3) !important;
+}
+
+.c11 {
+  width: 100%;
+}
+
+.c11 img {
+  width: inherit;
+  margin-bottom: 20px;
+}
+
+.c14 {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c14 img {
+  width: calc((100% / 2) - 10px) !important;
+}
+
+.c13 {
+  width: 100%;
+}
+
+.c13 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.c4 {
+  width: 100%;
+}
+
+@media (min-width:600px) {
+  .c1 {
+    width: 570px;
+  }
+}
+
+<App>
+  <Home>
+    <HomeStyles__HomeHeader>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "HomeStyles__HomeHeader-sc-1whydks-0",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "width:100%;height:500px;background-image:",
+                "url(polygon_blue.png)",
+                ";background-size:cover;display:flex;align-items:center;justify-content:space-around;box-shadow:0 5px 15px #9c9c9c;",
+              ],
+            },
+            "displayName": "HomeStyles__HomeHeader",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "HomeStyles__HomeHeader-sc-1whydks-0",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="c0"
+        >
+          <Atv
+            layers={
+              Array [
+                "react.png",
+              ]
+            }
+            staticFallback="http://kloc.pm/images/kloc-icon-flattened.jpg"
+            style={
+              Object {
+                "height": 250,
+                "width": 250,
+              }
+            }
+          >
+            <div
+              className=""
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseMove={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "WebkitTapHighlightColor": "rgba(#000, 0)",
+                  "borderRadius": 5,
+                  "height": 250,
+                  "transform": "perspective(0px)",
+                  "transformStyle": "preserve-3d",
+                  "width": 250,
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "borderRadius": 5,
+                    "height": "100%",
+                    "position": "relative",
+                    "transition": "all 0.2s ease-out",
+                    "width": "100%",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "height": "90%",
+                      "left": "5%",
+                      "position": "absolute",
+                      "top": "5%",
+                      "transition": "all 0.2s ease-out",
+                      "width": "90%",
+                    }
+                  }
+                />
+                <div
+                  style={
+                    Object {
+                      "borderRadius": 5,
+                      "height": "100%",
+                      "overflow": "hidden",
+                      "position": "relative",
+                      "transformStyle": "preserve-3d",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <div
+                    key="0"
+                    style={
+                      Object {
+                        "backgroundColor": "transparent",
+                        "backgroundImage": "url(react.png)",
+                        "backgroundPosition": "center",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundSize": "cover",
+                        "height": "104%",
+                        "left": "-2%",
+                        "position": "absolute",
+                        "top": "-2%",
+                        "transition": "all 0.1s ease-out",
+                        "width": "104%",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "background": "linear-gradient(135deg, rgba(255, 255, 255, .25) 0%, rgba(255, 255, 255, 0) 60%)",
+                      "borderRadius": 5,
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </Atv>
+        </div>
+      </StyledComponent>
+    </HomeStyles__HomeHeader>
+    <HomeStyles__Skills>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "HomeStyles__Skills-sc-1whydks-1",
+              "isStatic": false,
+              "lastClassName": "c1",
+              "rules": Array [
+                "width:90%;margin:0 auto;@media (min-width:600px){width:570px;}",
+                ".c2",
+                "{margin:30px 0;}",
+              ],
+            },
+            "displayName": "HomeStyles__Skills",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "HomeStyles__Skills-sc-1whydks-1",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="c1"
+        >
+          <CardStyles__Card>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "c2",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "padding:20px;border-radius:10px;background-color:white;box-shadow:0 5px 15px #9c9c9c;",
+                    ],
+                  },
+                  "displayName": "CardStyles__Card",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "c2",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c2 c3"
+              >
+                <AboutMe>
+                  <AboutMeStyles__AboutMeWrapper>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "AboutMeStyles__AboutMeWrapper-gi1rte-0",
+                            "isStatic": false,
+                            "lastClassName": "c4",
+                            "rules": Array [
+                              "width:100%;",
+                            ],
+                          },
+                          "displayName": "AboutMeStyles__AboutMeWrapper",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "AboutMeStyles__AboutMeWrapper-gi1rte-0",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c4"
+                      >
+                        <TypographyStyles__Title>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "TypographyStyles__Title-h3bbo4-1",
+                                  "isStatic": false,
+                                  "lastClassName": "c5",
+                                  "rules": Array [
+                                    "font-size:25px;color:#3e3d40;+ ",
+                                    ".c6",
+                                    "{margin-top:10px;}",
+                                  ],
+                                },
+                                "displayName": "TypographyStyles__Title",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "TypographyStyles__Title-h3bbo4-1",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c5"
+                            >
+                              About me
+                            </div>
+                          </StyledComponent>
+                        </TypographyStyles__Title>
+                        <TypographyStyles__Description>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "c6",
+                                  "isStatic": false,
+                                  "lastClassName": "c7",
+                                  "rules": Array [
+                                    "font-size:18px;color:#3e3d40;",
+                                  ],
+                                },
+                                "displayName": "TypographyStyles__Description",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "c6",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c6 c7"
+                            >
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    Welcome to my portfolio, this is Rubén. I was born in the mid 90s this frontend engineer took my first steps as a web developer back in 2010 and became a former developer 2 years later.
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    Eager to learn new technologies and architectures nothing stopped me from learning 
+                                    <strong>
+                                      symfony
+                                    </strong>
+                                     to work as a full-stack developer for 4 years in a row, learning and using 
+                                    <strong>
+                                      AngularJS
+                                    </strong>
+                                     in my day by day tasks, a technology I would then be focused on during future projects.
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    Back in April 2016 when the v0.15 of React was the only thing we had, I started practicing what would become my favorite technology of all times no longer than 3 months later.
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    Completing one step at a time, after React came Redux, then Redux-Thunk/Redux-Saga, then Styled Components, then Jest, Cypress, and an infinite list of technologies within React and Frontend Engineer's ecosystem.
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    By having worked in product-companies and very close to engineers, product owners, data scientists/engineers and designers, I am ready and eager to take part of decision-maker conversations helping any team to move forward.
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                            </div>
+                          </StyledComponent>
+                        </TypographyStyles__Description>
+                      </div>
+                    </StyledComponent>
+                  </AboutMeStyles__AboutMeWrapper>
+                </AboutMe>
+              </div>
+            </StyledComponent>
+          </CardStyles__Card>
+          <CardStyles__Card>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "c2",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "padding:20px;border-radius:10px;background-color:white;box-shadow:0 5px 15px #9c9c9c;",
+                    ],
+                  },
+                  "displayName": "CardStyles__Card",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "c2",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c2 c3"
+              >
+                <TheHolyTrinity>
+                  <TheHolyTrinityStyles__TheHolyTrinityWrapper>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "TheHolyTrinityStyles__TheHolyTrinityWrapper-sc-1h1ssj7-0",
+                            "isStatic": false,
+                            "lastClassName": "c9",
+                            "rules": Array [
+                              "width:100%;img{width:100%;margin-bottom:20px;}",
+                            ],
+                          },
+                          "displayName": "TheHolyTrinityStyles__TheHolyTrinityWrapper",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "TheHolyTrinityStyles__TheHolyTrinityWrapper-sc-1h1ssj7-0",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c9"
+                      >
+                        <TheHolyTrinityStyles__TheHolyTrinityImage>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "TheHolyTrinityStyles__TheHolyTrinityImage-sc-1h1ssj7-1",
+                                  "isStatic": false,
+                                  "lastClassName": "c10",
+                                  "rules": Array [
+                                    "width:80%;margin:0 auto;",
+                                  ],
+                                },
+                                "displayName": "TheHolyTrinityStyles__TheHolyTrinityImage",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "TheHolyTrinityStyles__TheHolyTrinityImage-sc-1h1ssj7-1",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c10"
+                            >
+                              <img
+                                alt="html-css-js-badge"
+                                src="html5-css-javascript.png"
+                              />
+                            </div>
+                          </StyledComponent>
+                        </TheHolyTrinityStyles__TheHolyTrinityImage>
+                        <TypographyStyles__Title>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "TypographyStyles__Title-h3bbo4-1",
+                                  "isStatic": false,
+                                  "lastClassName": "c5",
+                                  "rules": Array [
+                                    "font-size:25px;color:#3e3d40;+ ",
+                                    ".c6",
+                                    "{margin-top:10px;}",
+                                  ],
+                                },
+                                "displayName": "TypographyStyles__Title",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "TypographyStyles__Title-h3bbo4-1",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c5"
+                            >
+                              The Holy Trinity
+                            </div>
+                          </StyledComponent>
+                        </TypographyStyles__Title>
+                        <TypographyStyles__Description>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "c6",
+                                  "isStatic": false,
+                                  "lastClassName": "c7",
+                                  "rules": Array [
+                                    "font-size:18px;color:#3e3d40;",
+                                  ],
+                                },
+                                "displayName": "TypographyStyles__Description",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "c6",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c6 c7"
+                            >
+                              Amongst of other skills of mine, the basics of every web page. Not a single step can be taken without knowing this well known and renowned trinity.
+                            </div>
+                          </StyledComponent>
+                        </TypographyStyles__Description>
+                      </div>
+                    </StyledComponent>
+                  </TheHolyTrinityStyles__TheHolyTrinityWrapper>
+                </TheHolyTrinity>
+              </div>
+            </StyledComponent>
+          </CardStyles__Card>
+          <CardStyles__Card>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "c2",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "padding:20px;border-radius:10px;background-color:white;box-shadow:0 5px 15px #9c9c9c;",
+                    ],
+                  },
+                  "displayName": "CardStyles__Card",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "c2",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c2 c3"
+              >
+                <ReactRedux>
+                  <ReactReduxStyles__ReactReduxWrapper>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "ReactReduxStyles__ReactReduxWrapper-sc-1mrksq4-1",
+                            "isStatic": false,
+                            "lastClassName": "c11",
+                            "rules": Array [
+                              "width:100%;img{width:inherit;margin-bottom:20px;}",
+                            ],
+                          },
+                          "displayName": "ReactReduxStyles__ReactReduxWrapper",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "ReactReduxStyles__ReactReduxWrapper-sc-1mrksq4-1",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c11"
+                      >
+                        <ReactReduxStyles__ReactReduxImages>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "ReactReduxStyles__ReactReduxImages-sc-1mrksq4-0",
+                                  "isStatic": false,
+                                  "lastClassName": "c12",
+                                  "rules": Array [
+                                    "width:80%;margin:0 auto;display:flex;align-items:center;justify-content:space-between;img{width:calc(100% / 3) !important;}",
+                                  ],
+                                },
+                                "displayName": "ReactReduxStyles__ReactReduxImages",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "ReactReduxStyles__ReactReduxImages-sc-1mrksq4-0",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c12"
+                            >
+                              <img
+                                alt="react"
+                                src="react.png"
+                              />
+                              <img
+                                alt="redux"
+                                src="redux.png"
+                              />
+                              <img
+                                alt="redux-saga"
+                                src="redux-saga.png"
+                              />
+                            </div>
+                          </StyledComponent>
+                        </ReactReduxStyles__ReactReduxImages>
+                        <TypographyStyles__Title>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "TypographyStyles__Title-h3bbo4-1",
+                                  "isStatic": false,
+                                  "lastClassName": "c5",
+                                  "rules": Array [
+                                    "font-size:25px;color:#3e3d40;+ ",
+                                    ".c6",
+                                    "{margin-top:10px;}",
+                                  ],
+                                },
+                                "displayName": "TypographyStyles__Title",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "TypographyStyles__Title-h3bbo4-1",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c5"
+                            >
+                              React Ecosystem
+                            </div>
+                          </StyledComponent>
+                        </TypographyStyles__Title>
+                        <TypographyStyles__Description>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "c6",
+                                  "isStatic": false,
+                                  "lastClassName": "c7",
+                                  "rules": Array [
+                                    "font-size:18px;color:#3e3d40;",
+                                  ],
+                                },
+                                "displayName": "TypographyStyles__Description",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "c6",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c6 c7"
+                            >
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    Discovered back in April 2016, this library took my heart from the beginning due to its flexibility and how easy to learn was it.
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    It is, by itself, a very decent tool to develop sites and pages of all sizes, from small static pages like this one to large sites like a back-office.
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    Reading every day multiple posts on the internet and articles on medium, this technology became easier and easier the more I read, and still looking forward to master it and all the ecosystem around it.
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                            </div>
+                          </StyledComponent>
+                        </TypographyStyles__Description>
+                      </div>
+                    </StyledComponent>
+                  </ReactReduxStyles__ReactReduxWrapper>
+                </ReactRedux>
+              </div>
+            </StyledComponent>
+          </CardStyles__Card>
+          <CardStyles__Card>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "c2",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "padding:20px;border-radius:10px;background-color:white;box-shadow:0 5px 15px #9c9c9c;",
+                    ],
+                  },
+                  "displayName": "CardStyles__Card",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "c2",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c2 c3"
+              >
+                <JestCypress>
+                  <JestCypressStyles__JestCypressWrapper>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "JestCypressStyles__JestCypressWrapper-q63v07-1",
+                            "isStatic": false,
+                            "lastClassName": "c13",
+                            "rules": Array [
+                              "width:100%;img{width:100%;margin-bottom:20px;}",
+                            ],
+                          },
+                          "displayName": "JestCypressStyles__JestCypressWrapper",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "JestCypressStyles__JestCypressWrapper-q63v07-1",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c13"
+                      >
+                        <JestCypressStyles__JestCypressImages>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "JestCypressStyles__JestCypressImages-q63v07-0",
+                                  "isStatic": false,
+                                  "lastClassName": "c14",
+                                  "rules": Array [
+                                    "width:80%;margin:0 auto;display:flex;align-items:center;justify-content:space-between;img{width:calc((100% / 2) - 10px) !important;}",
+                                  ],
+                                },
+                                "displayName": "JestCypressStyles__JestCypressImages",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "JestCypressStyles__JestCypressImages-q63v07-0",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c14"
+                            >
+                              <img
+                                alt="jest"
+                                src="jest.png"
+                              />
+                              <img
+                                alt="cypress"
+                                src="cypress.png"
+                              />
+                            </div>
+                          </StyledComponent>
+                        </JestCypressStyles__JestCypressImages>
+                        <TypographyStyles__Title>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "TypographyStyles__Title-h3bbo4-1",
+                                  "isStatic": false,
+                                  "lastClassName": "c5",
+                                  "rules": Array [
+                                    "font-size:25px;color:#3e3d40;+ ",
+                                    ".c6",
+                                    "{margin-top:10px;}",
+                                  ],
+                                },
+                                "displayName": "TypographyStyles__Title",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "TypographyStyles__Title-h3bbo4-1",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c5"
+                            >
+                              Unit, Integration, End-to-end test
+                            </div>
+                          </StyledComponent>
+                        </TypographyStyles__Title>
+                        <TypographyStyles__Description>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "c6",
+                                  "isStatic": false,
+                                  "lastClassName": "c7",
+                                  "rules": Array [
+                                    "font-size:18px;color:#3e3d40;",
+                                  ],
+                                },
+                                "displayName": "TypographyStyles__Description",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "c6",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c6 c7"
+                            >
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    It was not until not so long time ago, back in early 2019, when I really started digging into the so called "testing".
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    To me it was a post-apocalyptic and lawless land because it seemed to my inexpert eyes that not every one agreed on how to properly test an app, but slowly I managed to at least understand the basics of how an app has to be tested so I could start implementing the test cases that would cover most of my lines.
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                              <TypographyStyles__P>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "TypographyStyles__P-h3bbo4-2",
+                                        "isStatic": false,
+                                        "lastClassName": "c8",
+                                        "rules": Array [
+                                          "margin-bottom:15px;",
+                                        ],
+                                      },
+                                      "displayName": "TypographyStyles__P",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "TypographyStyles__P-h3bbo4-2",
+                                      "target": "p",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <p
+                                    className="c8"
+                                  >
+                                    Also started working with cypress, and end-to-end tool that would help me cover UI and interactions as a normal human being would do, making sure that the buttons and inputs and all sort of UI elements were in place and reading/writing the data as the app is expected to do.
+                                  </p>
+                                </StyledComponent>
+                              </TypographyStyles__P>
+                            </div>
+                          </StyledComponent>
+                        </TypographyStyles__Description>
+                      </div>
+                    </StyledComponent>
+                  </JestCypressStyles__JestCypressWrapper>
+                </JestCypress>
+              </div>
+            </StyledComponent>
+          </CardStyles__Card>
+        </div>
+      </StyledComponent>
+    </HomeStyles__Skills>
+    <Footer>
+      <FooterStyles__FooterWrapper>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "FooterStyles__FooterWrapper-sc-14bu0a6-0",
+                "isStatic": false,
+                "lastClassName": "c15",
+                "rules": Array [
+                  "background:linear-gradient(141deg,#0fb8ad 0%,#1fc8db 51%,#2cb5e8 75%);width:100%;position:relative;box-shadow:0 -5px 15px #9c9c9c;",
+                ],
+              },
+              "displayName": "FooterStyles__FooterWrapper",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "FooterStyles__FooterWrapper-sc-14bu0a6-0",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="c15"
+          >
+            <FooterStyles__FooterRow>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "FooterStyles__FooterRow-sc-14bu0a6-1",
+                      "isStatic": false,
+                      "lastClassName": "c16",
+                      "rules": Array [
+                        "padding:15px 30px;",
+                      ],
+                    },
+                    "displayName": "FooterStyles__FooterRow",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "FooterStyles__FooterRow-sc-14bu0a6-1",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="c16"
+                >
+                  <FooterStyles__FooterRowTitle>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "FooterStyles__FooterRowTitle-sc-14bu0a6-2",
+                            "isStatic": false,
+                            "lastClassName": "c17",
+                            "rules": Array [
+                              "color:white;font-size:25px;padding:5px 0;",
+                            ],
+                          },
+                          "displayName": "FooterStyles__FooterRowTitle",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "FooterStyles__FooterRowTitle-sc-14bu0a6-2",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c17"
+                      >
+                        Contact
+                      </div>
+                    </StyledComponent>
+                  </FooterStyles__FooterRowTitle>
+                  <FooterStyles__FooterRowText>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "FooterStyles__FooterRowText-sc-14bu0a6-3",
+                            "isStatic": false,
+                            "lastClassName": "c18",
+                            "rules": Array [
+                              "color:white;font-size:16px;",
+                            ],
+                          },
+                          "displayName": "FooterStyles__FooterRowText",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "FooterStyles__FooterRowText-sc-14bu0a6-3",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c18"
+                      >
+                        If you want to contact me you can do it throught my e-mail address
+                         
+                        <a
+                          className="black-link"
+                          href="mailto:rubensillero90@gmail.com"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          rubensillero90@gmail.com
+                        </a>
+                        .
+                      </div>
+                    </StyledComponent>
+                  </FooterStyles__FooterRowText>
+                </div>
+              </StyledComponent>
+            </FooterStyles__FooterRow>
+            <FooterStyles__FooterRow>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "FooterStyles__FooterRow-sc-14bu0a6-1",
+                      "isStatic": false,
+                      "lastClassName": "c16",
+                      "rules": Array [
+                        "padding:15px 30px;",
+                      ],
+                    },
+                    "displayName": "FooterStyles__FooterRow",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "FooterStyles__FooterRow-sc-14bu0a6-1",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="c16"
+                >
+                  <FooterStyles__FooterRowTitle>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "FooterStyles__FooterRowTitle-sc-14bu0a6-2",
+                            "isStatic": false,
+                            "lastClassName": "c17",
+                            "rules": Array [
+                              "color:white;font-size:25px;padding:5px 0;",
+                            ],
+                          },
+                          "displayName": "FooterStyles__FooterRowTitle",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "FooterStyles__FooterRowTitle-sc-14bu0a6-2",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c17"
+                      >
+                        What am I up to
+                      </div>
+                    </StyledComponent>
+                  </FooterStyles__FooterRowTitle>
+                  <FooterStyles__FooterRowText>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "FooterStyles__FooterRowText-sc-14bu0a6-3",
+                            "isStatic": false,
+                            "lastClassName": "c18",
+                            "rules": Array [
+                              "color:white;font-size:16px;",
+                            ],
+                          },
+                          "displayName": "FooterStyles__FooterRowText",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "FooterStyles__FooterRowText-sc-14bu0a6-3",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c18"
+                      >
+                        Afterworks, learn, teach. Enjoy life.
+                      </div>
+                    </StyledComponent>
+                  </FooterStyles__FooterRowText>
+                </div>
+              </StyledComponent>
+            </FooterStyles__FooterRow>
+            <FooterStyles__FooterRow>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "FooterStyles__FooterRow-sc-14bu0a6-1",
+                      "isStatic": false,
+                      "lastClassName": "c16",
+                      "rules": Array [
+                        "padding:15px 30px;",
+                      ],
+                    },
+                    "displayName": "FooterStyles__FooterRow",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "FooterStyles__FooterRow-sc-14bu0a6-1",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="c16"
+                >
+                  <FooterStyles__FooterRowTitle>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "FooterStyles__FooterRowTitle-sc-14bu0a6-2",
+                            "isStatic": false,
+                            "lastClassName": "c17",
+                            "rules": Array [
+                              "color:white;font-size:25px;padding:5px 0;",
+                            ],
+                          },
+                          "displayName": "FooterStyles__FooterRowTitle",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "FooterStyles__FooterRowTitle-sc-14bu0a6-2",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c17"
+                      >
+                        Who is this Finn Winchester?
+                      </div>
+                    </StyledComponent>
+                  </FooterStyles__FooterRowTitle>
+                  <FooterStyles__FooterRowText>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "FooterStyles__FooterRowText-sc-14bu0a6-3",
+                            "isStatic": false,
+                            "lastClassName": "c18",
+                            "rules": Array [
+                              "color:white;font-size:16px;",
+                            ],
+                          },
+                          "displayName": "FooterStyles__FooterRowText",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "FooterStyles__FooterRowText-sc-14bu0a6-3",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c18"
+                      >
+                        It is my nickname on the internet.
+                      </div>
+                    </StyledComponent>
+                  </FooterStyles__FooterRowText>
+                </div>
+              </StyledComponent>
+            </FooterStyles__FooterRow>
+            <FooterStyles__FooterBar>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "FooterStyles__FooterBar-sc-14bu0a6-4",
+                      "isStatic": false,
+                      "lastClassName": "c19",
+                      "rules": Array [
+                        "background-color:rgba(51,51,51,0.08);padding:15px 30px;display:flex;align-items:center;justify-content:space-between;color:white;",
+                      ],
+                    },
+                    "displayName": "FooterStyles__FooterBar",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "FooterStyles__FooterBar-sc-14bu0a6-4",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="c19"
+                >
+                  <div>
+                    2019
+                  </div>
+                  <div>
+                    Designed and coded by Finn Winchester
+                  </div>
+                </div>
+              </StyledComponent>
+            </FooterStyles__FooterBar>
+          </div>
+        </StyledComponent>
+      </FooterStyles__FooterWrapper>
+    </Footer>
+  </Home>
+  <GlobalStyleComponent />
+</App>
+`;

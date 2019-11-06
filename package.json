@@ -55,9 +55,10 @@
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
     "build:qa": "webpack --config webpack.config.qa.js",
+    "postbuild": "cp -fr public/* .",
     "check": "npm run formatcode && npm run lint",
     "formatcode": "pretty-quick --staged",
-    "lint": "eslint . --ext .js,.jsx",
+    "lint": "eslint src/ --ext .js,.jsx",
     "start": "webpack-dev-server --config webpack.config.dev.js",
     "start:hot": "webpack-dev-server --config webpack.config.dev.js --inline --hot",
     "test": "CI=true && jest",
