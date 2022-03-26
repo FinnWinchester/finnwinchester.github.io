@@ -8,12 +8,13 @@ export const JestCypressImages = styled.div`
   justify-content: space-between;
 
   img {
-    width: calc((100% / 2) - 10px) !important;
+    width: calc((100% / 3) - 10px) !important;
   }
 `;
 
 export const JestCypressWrapper = styled.div`
   width: 100%;
+  text-align: justify;
 
   img {
     width: 100%;

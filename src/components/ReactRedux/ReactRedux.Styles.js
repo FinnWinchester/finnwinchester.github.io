@@ -14,6 +14,7 @@ export const ReactReduxImages = styled.div`
 
 export const ReactReduxWrapper = styled.div`
   width: 100%;
+  text-align: justify;
 
   img {
     width: inherit;

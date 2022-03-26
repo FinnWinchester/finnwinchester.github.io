@@ -12,4 +12,5 @@ export const TheHolyTrinityWrapper = styled.div`
 export const TheHolyTrinityImage = styled.div`
   width: 80%;
   margin: 0 auto;
+  text-align: justify;
 `;

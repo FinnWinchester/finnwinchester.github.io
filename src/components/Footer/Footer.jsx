@@ -36,7 +36,7 @@ export default function Footer() {
       </FooterRow>
 
       <FooterBar>
-        <div>2019</div>
+        <div>{new Date().getFullYear()}</div>
         <div>Designed and coded by Finn Winchester</div>
       </FooterBar>
     </FooterWrapper>

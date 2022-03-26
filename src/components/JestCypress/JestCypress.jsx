@@ -1,9 +1,8 @@
-/* eslint-disable react/no-unescaped-entities */
-
 import React from 'react';
 
 import JestImage from 'src/assets/img/jest.png';
 import CypressImage from 'src/assets/img/cypress.png';
+import ReactTestingLibraryImage from 'src/assets/img/react-testing-library.png';
 import { JestCypressImages, JestCypressWrapper } from 'src/components/JestCypress/JestCypress.Styles';
 import { Description, P, Title } from 'src/styles/Typography.Styles';
 
@@ -12,6 +11,7 @@ export default function JestCypress() {
     <JestCypressWrapper>
       <JestCypressImages>
         <img alt="jest" src={JestImage} />
+        <img alt="react-testing-library" src={ReactTestingLibraryImage} />
         <img alt="cypress" src={CypressImage} />
       </JestCypressImages>
 
