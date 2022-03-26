@@ -5,7 +5,7 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    app: [path.resolve(__dirname, 'src')]
+    app: path.resolve(__dirname, 'src/index.js')
   },
   module: {
     rules: [
@@ -23,15 +23,16 @@ module.exports = {
     ]
   },
   output: {
+    filename: '[name].js',
     path: path.resolve(__dirname, 'public'),
-    filename: '[name].bundle.js',
     publicPath: '/'
   },
   plugins: [
     new webpack.ProgressPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './src/assets/index.html'
+      template: './src/assets/index.html',
+      filename: 'index.html',
     })
   ],
   resolve: {
